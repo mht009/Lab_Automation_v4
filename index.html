@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoLab v1</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script type="text/javascript">
+        setInterval(function () {
+            var status = navigator.onLine ? document.getElementById("conn").innerText = "" : document.getElementById("conn").innerText = "You are Offline!!!";
+            // console.log(status);
+        }, 5000);
+    </script>
+
+
+</head>
+
+<body>
+    <header class="head">
+        <div class="logo" id="mht">AutoLab</div>
+        <div class="option">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#home" class="tab" id="home-btn">HOME</a></li>
+                <li><a href="#room1" class="tab" id="room1-btn">ROOM 1</a></li>
+                <li><a href="#room2" class="tab" id="room2-btn">ROOM 2</a></li>
+                <li><a href="#room3" class="tab" id="room3-btn">ROOM 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container-top">
+
+        <div class="room" id="home">
+            <p id="conn"></p>
+
+            <p id="hello">
+                Hello! This is the lab automation project!!
+            </p>
+            <br>
+            <p id="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus recusandae odio deleniti
+                accusantium. Ullam natus facere ex possimus quibusdam tempore ipsam aut corporis vel veritatis?
+                Architecto tempora vitae quibusdam ut beatae sit dolores sed adipisci, quaerat doloremque a nobis harum
+                ex expedita. Corporis vel quasi repellat sequi, earum voluptates voluptate dolore exercitationem,
+                excepturi assumenda fuga ipsa deserunt, qui aspernatur fugit error officiis voluptatum. Aliquam
+                nesciunt, amet recusandae pariatur dolore sit esse dolor a aspernatur reprehenderit repudiandae
+                obcaecati velit possimus cupiditate laboriosam repellat nostrum consequuntur eligendi illo doloremque
+                architecto est quisquam ex ab! Suscipit ut, neque delectus deserunt eligendi deleniti pariatur?
+            </p>
+
+        </div>
+
+        <div class="mht1">
+            <div class="room" id="room1">
+                <div class="inner-room" id="row1">
+                    <img src="" alt="" id="r1_im1" class="img-room1 ind-imgs">
+                    <img src="" alt="" id="r1_im2" class="img-room1 ind-imgs">
+                    <img src="" alt="" id="r1_im3" class="img-room1 ind-imgs">
+                </div>
+                <div class="inner-room" id="row2">
+                    <img src="" alt="" id="r1_im4" class="img-room1 ind-imgs">
+                    <img src="" alt="" id="r1_im5" class="img-room1 ind-imgs">
+                    <img src="" alt="" id="r1_im6" class="img-room1 ind-imgs">
+                </div>
+                <div class="inner-room" id="row2">
+                    <img src="" alt="" id="r1_im7" class="img-room1 ind-imgs">
+                    <img src="" alt="" id="r1_im8" class="img-room1 ind-imgs">
+                    <img src="" alt="" id="r1_im9" class="img-room1 ind-imgs">
+                </div>
+            </div>
+        </div>
+
+        <div class="mht1">
+            <div class="room mht" id="room2">
+                <div class="inner-room" id="row1">
+                    <img src="" alt="sorry" id="r2_im1" class="img-room2 ind-imgs">
+                    <img src="" alt="" id="r2_im2" class="img-room2 ind-imgs">
+                    <img src="" alt="" id="r2_im3" class="img-room2 ind-imgs">
+                </div>
+                <div class="inner-room" id="row2">
+                    <img src="" alt="" id="r2_im4" class="img-room2 ind-imgs">
+                    <img src="" alt="" id="r2_im5" class="img-room2 ind-imgs">
+                    <img src="" alt="" id="r2_im6" class="img-room2 ind-imgs">
+                </div>
+            </div>
+        </div>
+
+        <div class="mht1">
+            <div class="room mht" id="room3">
+                <div class="inner-room" id="row1">
+                    <img src="" alt="" id="r3_im1" class="img-room3 ind-imgs">
+                    <img src="" alt="" id="r3_im2" class="img-room3 ind-imgs">
+                    <img src="" alt="" id="r3_im3" class="img-room3 ind-imgs">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 AutoLab</p>
+                </div>
+                <!-- <div class="col-md-6">
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="module" src="index.js"></script>
+    <script type="text/javascript" src="index2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/1b59bc20c8.js"></script>
+</body>
+
+</html>
